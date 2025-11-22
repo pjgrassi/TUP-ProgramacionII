@@ -6,10 +6,10 @@ package Ejercicio7;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Conductor {
-
+    
     private String nombre;
     private String licencia;
     private Vehiculo vehiculo;
@@ -45,5 +45,5 @@ public class Conductor {
             vehiculo.setConductor(this);
         }
     }
-
+    
 }

@@ -6,10 +6,10 @@ package Ejercicio5;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class PlacaMadre {
-
+    
     private String modelo;
     private String chipset;
 
@@ -33,5 +33,5 @@ public class PlacaMadre {
     public void setChipset(String chipset) {
         this.chipset = chipset;
     }
-
+     
 }

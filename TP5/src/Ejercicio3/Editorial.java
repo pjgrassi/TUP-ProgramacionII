@@ -6,10 +6,10 @@ package Ejercicio3;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Editorial {
-
+    
     private String nombre;
     private String direccion;
 
@@ -33,5 +33,5 @@ public class Editorial {
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
-
+    
 }

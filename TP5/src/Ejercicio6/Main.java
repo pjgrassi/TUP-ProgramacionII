@@ -6,18 +6,17 @@ package Ejercicio6;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Main {
-
+    
     public static void main(String[] args) {
-        Cliente cliente = new Cliente("Andres Garcia", "21222333");
+        Cliente cliente = new Cliente("Pablo Perez", "3515123456");
         Mesa mesa = new Mesa(5, 4);
-        Reserva reserva = new Reserva("27-10-2025", "21:00", mesa);
+        Reserva reserva = new Reserva("22-11-2025", "21:00", mesa);
         reserva.setCliente(cliente);
         System.out.println("Cliente: " + reserva.getCliente().getNombre());
         System.out.println("Mesa número: " + reserva.getMesa().getNumero());
 
     }
-
 }

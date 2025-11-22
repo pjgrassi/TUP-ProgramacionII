@@ -6,10 +6,10 @@ package Ejercicio7;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Motor {
-
+    
     private String tipo;
     private String numeroSerie;
 
@@ -33,5 +33,5 @@ public class Motor {
     public void setNumeroSerie(String numeroSerie) {
         this.numeroSerie = numeroSerie;
     }
-
+       
 }

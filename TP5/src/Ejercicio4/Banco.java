@@ -6,10 +6,10 @@ package Ejercicio4;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Banco {
-
+    
     private String nombre;
     private String cuit;
 
@@ -33,5 +33,5 @@ public class Banco {
     public void setCuit(String cuit) {
         this.cuit = cuit;
     }
-
+    
 }

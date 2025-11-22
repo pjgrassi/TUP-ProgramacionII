@@ -6,18 +6,18 @@ package Ejercicio5;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Main {
-
+    
     public static void main(String[] args) {
-        Propietario propietario = new Propietario("Juan Gomez", "20555666");
-        Computadora pc = new Computadora("LENOVO", "SN123456", "LOQ", "A555");
+        Propietario propietario = new Propietario("Pablo Perez", "20100200");
+        Computadora pc = new Computadora("LENOVO", "SN123456", "LOQ", "CHPS1234");
         propietario.setComputadora(pc);
 
         System.out.println("Propietario: " + pc.getPropietario().getNombre());
         System.out.println("Placa Madre: " + pc.getPlacaMadre().getModelo());
 
     }
-
+    
 }

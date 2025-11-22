@@ -6,10 +6,10 @@ package Ejercicio8;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class FirmaDigital {
-
+    
     private String codigoHash;
     private String fecha;
     private Usuario usuario;
@@ -43,5 +43,7 @@ public class FirmaDigital {
     public void setUsuario(Usuario usuario) {
         this.usuario = usuario;
     }
-
+    
+    
+    
 }

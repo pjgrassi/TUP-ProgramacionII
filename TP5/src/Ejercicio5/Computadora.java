@@ -6,10 +6,10 @@ package Ejercicio5;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Computadora {
-
+    
     private String marca;
     private String numeroSerie;
     private PlacaMadre placaMadre;
@@ -19,6 +19,7 @@ public class Computadora {
         this.marca = marca;
         this.numeroSerie = numeroSerie;
         this.placaMadre = new PlacaMadre(modelo, chipset);
+        this.propietario = propietario;
     }
 
     public String getMarca() {
@@ -41,8 +42,8 @@ public class Computadora {
         return placaMadre;
     }
 
-    public void setPlacaMadre(PlacaMadre placaMadre) {
-        this.placaMadre = placaMadre;
+    public void setPlacaMadre(PlacaMadre placa) {
+        this.placaMadre = placa;
     }
 
     public Propietario getPropietario() {
@@ -55,5 +56,5 @@ public class Computadora {
             propietario.setComputadora(this);
         }
     }
-
+   
 }

@@ -6,10 +6,10 @@ package Ejercicio3;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Autor {
-
+    
     private String nombre;
     private String nacionalidad;
 
@@ -33,5 +33,5 @@ public class Autor {
     public void setNacionalidad(String nacionalidad) {
         this.nacionalidad = nacionalidad;
     }
-
+    
 }

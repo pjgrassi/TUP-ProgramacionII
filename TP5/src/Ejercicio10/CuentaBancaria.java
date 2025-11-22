@@ -6,10 +6,10 @@ package Ejercicio10;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class CuentaBancaria {
-
+    
     private String cbu;
     private double saldo;
     private ClaveSeguridad clave;
@@ -51,5 +51,7 @@ public class CuentaBancaria {
             titular.setCuenta(this);
         }
     }
-
+    
+    
+    
 }

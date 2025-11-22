@@ -6,10 +6,10 @@ package Ejercicio11;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Cancion {
-
+    
     private String titulo;
     private Artista artista;
 
@@ -17,10 +17,11 @@ public class Cancion {
         this.titulo = titulo;
         this.artista = artista;
     }
-
-    public Cancion() {
+    
+    public Cancion(){
+        
     }
-
+   
     public String getTitulo() {
         return titulo;
     }
@@ -36,5 +37,5 @@ public class Cancion {
     public void setArtista(Artista artista) {
         this.artista = artista;
     }
-
+    
 }

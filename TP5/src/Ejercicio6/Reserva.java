@@ -6,10 +6,10 @@ package Ejercicio6;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Reserva {
-
+    
     private String fecha;
     private String hora;
     private Cliente cliente;
@@ -52,5 +52,5 @@ public class Reserva {
     public void setMesa(Mesa mesa) {
         this.mesa = mesa;
     }
-
+     
 }

@@ -6,7 +6,7 @@ package Ejercicio12;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Contribuyente {
 

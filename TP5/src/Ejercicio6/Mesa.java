@@ -6,10 +6,10 @@ package Ejercicio6;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Mesa {
-
+    
     private int numero;
     private int capacidad;
 
@@ -33,5 +33,5 @@ public class Mesa {
     public void setCapacidad(int capacidad) {
         this.capacidad = capacidad;
     }
-
+       
 }

@@ -6,19 +6,20 @@ package Ejercicio1;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Pasaporte {
 
+
     private String numero;
     private String fechaEmision;
-    private Foto foto;
-    private Titular titular;
-
-    public Pasaporte(String numero, String fechaEmision, String imagen, String formato) {
-        this.numero = numero;
-        this.fechaEmision = fechaEmision;
-        this.foto = new Foto(imagen, formato);
+    private Foto foto; // composición: creado/gestionado por Pasaporte
+    private Titular titular; // asociación
+    
+    public Pasaporte(String numero, String fechaEmision, String imagen, String formato){ 
+        this.numero = numero; 
+        this.fechaEmision = fechaEmision; 
+        this.foto = new Foto(imagen, formato); 
     }
 
     public String getNumero() {
@@ -51,5 +52,4 @@ public class Pasaporte {
             titular.setPasaporte(this);
         }
     }
-
-}
+}  

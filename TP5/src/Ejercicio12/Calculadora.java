@@ -6,13 +6,13 @@ package Ejercicio12;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Calculadora {
-
+    
     public void calcular(Impuesto impuesto) {
-        System.out.println("Cálculo de impuesto de: " + impuesto.getContribuyente().getNombre());
+        System.out.println("Calcular impuesto de: " + impuesto.getContribuyente().getNombre());
         System.out.println("Monto: $" + impuesto.getMonto());
     }
-
+    
 }

@@ -6,10 +6,10 @@ package Ejercicio13;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class CodigoQR {
-
+    
     private String valor;
     private Usuario usuario;
 
@@ -36,5 +36,5 @@ public class CodigoQR {
     public void setUsuario(Usuario usuario) {
         this.usuario = usuario;
     }
-
+    
 }

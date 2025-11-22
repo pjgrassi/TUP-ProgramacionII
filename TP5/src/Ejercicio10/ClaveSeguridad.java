@@ -6,10 +6,10 @@ package Ejercicio10;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class ClaveSeguridad {
-
+    
     private String codigo;
     private String ultimaModificacion;
 
@@ -33,5 +33,6 @@ public class ClaveSeguridad {
     public void setUltimaModificacion(String ultimaModificacion) {
         this.ultimaModificacion = ultimaModificacion;
     }
-
+    
+    
 }

@@ -6,15 +6,15 @@ package Ejercicio12;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Main {
-
+    
     public static void main(String[] args) {
-        Contribuyente contribuyente = new Contribuyente("Carlos Peralta", "20-12345678-3");
-        Impuesto impuesto = new Impuesto(50000.0, contribuyente);
-        Calculadora calc = new Calculadora();
-        calc.calcular(impuesto); // dependencia de uso
+        Contribuyente contribuyente = new Contribuyente("Pablo Perez", "23-20100200-9");
+        Impuesto impuesto = new Impuesto(10000.0, contribuyente);
+        Calculadora calcu = new Calculadora();
+        calcu.calcular(impuesto);
 
     }
 }

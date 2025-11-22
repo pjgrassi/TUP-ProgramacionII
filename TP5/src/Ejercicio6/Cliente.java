@@ -6,10 +6,10 @@ package Ejercicio6;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Cliente {
-
+    
     private String nombre;
     private String telefono;
 
@@ -33,5 +33,5 @@ public class Cliente {
     public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
-
+       
 }

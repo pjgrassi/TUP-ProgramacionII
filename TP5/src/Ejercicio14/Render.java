@@ -6,10 +6,10 @@ package Ejercicio14;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Render {
-
+    
     private String formato;
     private Proyecto proyecto;
 
@@ -36,5 +36,5 @@ public class Render {
     public void setProyecto(Proyecto proyecto) {
         this.proyecto = proyecto;
     }
-
+    
 }

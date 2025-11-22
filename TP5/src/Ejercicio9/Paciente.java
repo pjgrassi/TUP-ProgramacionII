@@ -6,10 +6,10 @@ package Ejercicio9;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Paciente {
-
+    
     private String nombre;
     private String obraSocial;
 
@@ -33,5 +33,7 @@ public class Paciente {
     public void setObraSocial(String obraSocial) {
         this.obraSocial = obraSocial;
     }
-
+    
+    
+    
 }

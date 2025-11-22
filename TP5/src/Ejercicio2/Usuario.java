@@ -6,10 +6,10 @@ package Ejercicio2;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
-public class Usuario{
-
+public class Usuario {
+    
     private String nombre;
     private String dni;
     private Celular celular;
@@ -45,5 +45,5 @@ public class Usuario{
             celular.setUsuario(this);
         }
     }
-
+     
 }

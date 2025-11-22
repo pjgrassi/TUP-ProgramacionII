@@ -6,14 +6,14 @@ package Ejercicio3;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Main {
-
+    
     public static void main(String[] args) {
         Autor autor = new Autor("Jose Hernandez", "Argentina");
-        Editorial editorial = new Editorial("Ediciones Leo", "Calle Falsa 123");
-        Libro libro = new Libro("Martin Fierro", "9780585091747", editorial);
+        Editorial editorial = new Editorial("Ediciones Colihue", "Calle 1234");
+        Libro libro = new Libro("Martin Fierro", "978-950-563-115-5.", editorial);
         libro.setAutor(autor);
 
         System.out.println("Libro: " + libro.getTitulo());
@@ -21,5 +21,4 @@ public class Main {
         System.out.println("Editorial: " + libro.getEditorial().getNombre());
 
     }
-
 }

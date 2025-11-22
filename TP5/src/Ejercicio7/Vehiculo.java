@@ -6,10 +6,10 @@ package Ejercicio7;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Vehiculo {
-
+    
     private String patente;
     private String modelo;
     private Motor motor;
@@ -55,5 +55,5 @@ public class Vehiculo {
             conductor.setVehiculo(this);
         }
     }
-
+    
 }

@@ -6,10 +6,10 @@ package Ejercicio13;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Usuario {
-
+    
     private String nombre;
     private String email;
 
@@ -36,5 +36,5 @@ public class Usuario {
     public void setEmail(String email) {
         this.email = email;
     }
-
+    
 }

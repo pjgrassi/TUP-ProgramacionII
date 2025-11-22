@@ -6,7 +6,7 @@ package Ejercicio1;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Titular {
 

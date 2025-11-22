@@ -6,14 +6,14 @@ package Ejercicio10;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Main {
-
+    
     public static void main(String[] args) {
-        Titular titular = new Titular("Hugo Gauna", "25666777");
-        ClaveSeguridad cs = new ClaveSeguridad("abc123", "01-07-2025");
-        CuentaBancaria cuenta = new CuentaBancaria("1111111122222222", 150000.0, "abc123", "01-07-2025");
+        Titular titular = new Titular("Pablo Perez", "20100200");
+        ClaveSeguridad cs = new ClaveSeguridad("Pablo123", "01-10-2025");
+        CuentaBancaria cuenta = new CuentaBancaria("111112222233333", 100000.0, "Pablo123", "01-10-2025");
         titular.setCuenta(cuenta);
         System.out.println("Titular: " + cuenta.getTitular().getNombre());
         System.out.println("Saldo: " + cuenta.getSaldo());

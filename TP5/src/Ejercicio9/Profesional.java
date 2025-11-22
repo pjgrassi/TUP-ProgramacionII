@@ -6,10 +6,10 @@ package Ejercicio9;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Profesional {
-
+    
     private String nombre;
     private String especialidad;
 
@@ -33,5 +33,6 @@ public class Profesional {
     public void setEspecialidad(String especialidad) {
         this.especialidad = especialidad;
     }
-
+    
+    
 }

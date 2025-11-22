@@ -6,10 +6,10 @@ package Ejercicio4;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Cliente {
-
+    
     private String nombre;
     private String dni;
     private TarjetaDeCredito tarjeta;
@@ -45,5 +45,5 @@ public class Cliente {
             tarjeta.setCliente(this);
         }
     }
-
+     
 }

@@ -6,10 +6,10 @@ package Ejercicio5;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Propietario {
-
+    
     private String nombre;
     private String dni;
     private Computadora computadora;
@@ -45,5 +45,5 @@ public class Propietario {
             computadora.setPropietario(this);
         }
     }
-
+    
 }

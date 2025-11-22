@@ -6,10 +6,10 @@ package Ejercicio3;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Libro {
-
+    
     private String titulo;
     private String isbn;
     private Autor autor;
@@ -52,5 +52,5 @@ public class Libro {
     public void setEditorial(Editorial editorial) {
         this.editorial = editorial;
     }
-
+    
 }

@@ -6,14 +6,14 @@ package Ejercicio13;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Main {
-
+    
     public static void main(String[] args) {
-        Usuario user = new Usuario("Carlos Juarez", "cjuarez@gmail.com");
+        Usuario user = new Usuario("Pablo Perez", "pperez@gmail.com");
         GeneradorQR gen = new GeneradorQR();
-        gen.generar("ABC-123", user); // dependencia de creación
+        gen.generar("COD-123", user);
 
     }
 }

@@ -6,10 +6,10 @@ package Ejercicio9;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class CitaMedica {
-
+    
     private String fecha;
     private String hora;
     private Paciente paciente;
@@ -51,5 +51,7 @@ public class CitaMedica {
     public void setProfesional(Profesional profesional) {
         this.profesional = profesional;
     }
-
+    
+    
+    
 }

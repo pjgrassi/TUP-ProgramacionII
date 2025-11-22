@@ -6,10 +6,10 @@ package Ejercicio14;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Proyecto {
-
+    
     private String nombre;
     private int duracionMin;
 
@@ -36,5 +36,5 @@ public class Proyecto {
     public void setDuracionMin(int duracionMin) {
         this.duracionMin = duracionMin;
     }
-
+    
 }

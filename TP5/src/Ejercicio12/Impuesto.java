@@ -6,10 +6,10 @@ package Ejercicio12;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Impuesto {
-
+    
     private double monto;
     private Contribuyente contribuyente;
 
@@ -36,5 +36,5 @@ public class Impuesto {
     public void setContribuyente(Contribuyente contribuyente) {
         this.contribuyente = contribuyente;
     }
-
+    
 }

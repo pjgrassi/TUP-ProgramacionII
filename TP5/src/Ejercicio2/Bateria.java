@@ -6,10 +6,10 @@ package Ejercicio2;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Bateria {
-
+    
     private String modelo;
     private int capacidad;
 
@@ -33,5 +33,5 @@ public class Bateria {
     public void setCapacidad(int capacidad) {
         this.capacidad = capacidad;
     }
-
+      
 }

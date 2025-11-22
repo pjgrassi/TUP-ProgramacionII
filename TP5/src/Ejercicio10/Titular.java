@@ -6,10 +6,10 @@ package Ejercicio10;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Titular {
-
+    
     private String nombre;
     private String dni;
     private CuentaBancaria cuenta;
@@ -45,5 +45,5 @@ public class Titular {
             cuenta.setTitular(this);
         }
     }
-
+ 
 }

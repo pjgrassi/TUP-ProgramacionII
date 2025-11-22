@@ -6,14 +6,14 @@ package Ejercicio14;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Main {
-
+    
     public static void main(String[] args) {
-        Proyecto proyecto = new Proyecto("Promo institucional", 3);
+        Proyecto proyecto = new Proyecto("Proyecto final", 10);
         EditorVideo editor = new EditorVideo();
-        editor.exportar("MP4", proyecto); // dependencia de creación
+        editor.exportar("MP4", proyecto);
 
     }
 }

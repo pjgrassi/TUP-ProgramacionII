@@ -6,21 +6,29 @@ package Ejercicio2;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
-public class Celular{
-
+public class Celular {
+    
+    private String imei;
     private String marca;
     private String modelo;
-    private String imei;
     private Bateria bateria;
     private Usuario usuario;
 
-    public Celular(String marca, String modelo, String imei, Bateria bateria) {
+    public Celular(String imei, String marca, String modelo, Bateria bateria) {
+        this.imei = imei;
         this.marca = marca;
         this.modelo = modelo;
-        this.imei = imei;
         this.bateria = bateria;
+    }
+    
+    public String getImei() {
+        return imei;
+    }
+
+    public void setImei(String imei) {
+        this.imei = imei;
     }
 
     public String getMarca() {
@@ -38,15 +46,7 @@ public class Celular{
     public void setModelo(String modelo) {
         this.modelo = modelo;
     }
-
-    public String getImei() {
-        return imei;
-    }
-
-    public void setImei(String imei) {
-        this.imei = imei;
-    }
-
+        
     public Bateria getBateria() {
         return bateria;
     }
@@ -65,5 +65,5 @@ public class Celular{
             usuario.setCelular(this);
         }
     }
-
+    
 }

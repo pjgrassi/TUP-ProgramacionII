@@ -6,18 +6,18 @@ package Ejercicio4;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class TarjetaDeCredito {
-
+    
     private String numero;
-    private String fechaVencimiento;
+    private String fechaVenciemiento;
     private Cliente cliente;
     private Banco banco;
 
-    public TarjetaDeCredito(String numero, String fechaVencimiento, Banco banco) {
+    public TarjetaDeCredito(String numero, String fechaVenciemiento, Banco banco) {
         this.numero = numero;
-        this.fechaVencimiento = fechaVencimiento;
+        this.fechaVenciemiento = fechaVenciemiento;
         this.banco = banco;
     }
 
@@ -29,12 +29,12 @@ public class TarjetaDeCredito {
         this.numero = numero;
     }
 
-    public String getFechaVencimiento() {
-        return fechaVencimiento;
+    public String getFechaVenciemiento() {
+        return fechaVenciemiento;
     }
 
-    public void setFechaVencimiento(String fechaVencimiento) {
-        this.fechaVencimiento = fechaVencimiento;
+    public void setFechaVenciemiento(String fechaVenciemiento) {
+        this.fechaVenciemiento = fechaVenciemiento;
     }
 
     public Cliente getCliente() {
@@ -55,5 +55,5 @@ public class TarjetaDeCredito {
     public void setBanco(Banco banco) {
         this.banco = banco;
     }
-
+      
 }

@@ -6,10 +6,10 @@ package Ejercicio8;
 
 /**
  *
- * @author rigon
+ * @author Personal
  */
 public class Documento {
-
+    
     private String titulo;
     private String contenido;
     private FirmaDigital firma;
@@ -17,7 +17,7 @@ public class Documento {
     public Documento(String titulo, String contenido, String codigoHash, String fecha, Usuario usuario) {
         this.titulo = titulo;
         this.contenido = contenido;
-        this.firma = new FirmaDigital(codigoHash, fecha, usuario); // composición
+        this.firma = new FirmaDigital(codigoHash, fecha, usuario);
     }
 
     public String getTitulo() {
@@ -39,5 +39,8 @@ public class Documento {
     public FirmaDigital getFirma() {
         return firma;
     }
-
+    
+    
+    
+    
 }
